@@ -1,0 +1,160 @@
+ /* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+     
+      background-color: #FCA6F1; 
+    line-height: 1.6;
+}
+
+/* Header Styles */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#name {
+    margin: 0;
+}
+
+#center-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#center-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#center-nav a:hover {
+    color: #f9f9f9;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+#intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#intro img {
+    max-width: 100%;
+    height: auto;
+}
+
+#text h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#about p {
+    font-size: 16px;
+}
+#about h1{
+    text-align: center;
+}
+#contact h1{
+    text-align: center;
+}
+.message form{
+      align-content: center;
+}
+
+/* Project Box Styles */
+.project-box {
+    background-color: #ddd;
+    margin: 10px 0;
+    padding: 20px;
+    
+}
+#projects h1{
+    text-align: center;
+}
+
+/* Contact Form Styles */
+.message {
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0a8e17;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-left {
+    width: 70%;
+}
+
+#footer-right {
+    width: 30%;
+}
+
+#footer i,
+#footer a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+#intro h2 {
+      color: rgb(12, 20, 20);
+      margin-top: 30%;
+}
